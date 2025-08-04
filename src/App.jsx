@@ -1,20 +1,19 @@
 import { RouterProvider } from 'react-router-dom'
-import { ThemeProvider } from '@mui/material/styles'
-import { CssBaseline } from '@mui/material'
-import { theme } from './theme/theme'
+import { Provider } from 'react-redux'
+import { store } from './store/store'
 import { router } from './routes/AppRoutes'
-import '@fontsource/roboto/300.css'
-import '@fontsource/roboto/400.css'
-import '@fontsource/roboto/500.css'
-import '@fontsource/roboto/700.css'
 import './styles/fonts.css'
+import './assets/scss/main.scss'
+import './assets/css/custom.css'
+import './assets/css/feather.css'
+import './assets/css/iconsax.css'
+import './App.css'
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
+    <Provider store={store}>
       <RouterProvider router={router} />
-    </ThemeProvider>
+    </Provider>
   )
 }
 

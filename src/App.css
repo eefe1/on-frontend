@@ -1,0 +1,228 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: #E6E8EE;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* App Layout */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  background-color: #F6FAFF;
+  color: #333;
+  box-shadow: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Navigation */
+.navigation {
+  padding: 1rem 2rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-logo .logo-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.nav-logo .logo-link:hover {
+  color: #333;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Logo styling - Make it bigger */
+.navbar-brand.logo img {
+  height: 60px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.navbar-brand.logo {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Override original CSS from assets */
+.header-one .logo.navbar-brand {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.header .header-nav .navbar-header .navbar-brand.logo {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Force logo to the left */
+.navbar-header .navbar-brand.logo {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  margin-right: auto !important;
+}
+
+/* Also override container margins */
+.header .header-nav .navbar-header {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.container .navbar-header {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Buttons - Override original styles */
+.btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  padding: 8px 24px !important;
+  border: none !important;
+  border-radius: 44px !important;
+  font-family: var(--font-family) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  text-transform: none !important;
+}
+
+.btn-light {
+  background: linear-gradient(90deg, #0e82fd 0.09%, #06aed4 70.28%) !important;
+  border: 1px solid #0e82fd !important;
+  color: #fff !important;
+  width: 126px !important;
+  height: 42px !important;
+  justify-content: center !important;
+}
+
+.btn-dark {
+  background-color: #012047 !important;
+  border: 1px solid #012047 !important;
+  color: #fff !important;
+  width: 117px !important;
+  height: 42px !important;
+  justify-content: center !important;
+}
+
+/* Override specific button classes from original CSS */
+.btn.btn-primary {
+  font-size: 14px !important;
+}
+
+.btn.btn-dark {
+  font-size: 14px !important;
+}
+
+.btn.reg-btn {
+  font-size: 14px !important;
+}
+
+.btn.log-btn {
+  font-size: 14px !important;
+}
+
+.btn-icon {
+  font-size: 18px;
+}
+
+/* Main Content */
+.app-main {
+  flex: 1;
+  width: 100%;
+}
+
+/* Footer */
+.app-footer {
+  background-color: #F6FAFF;
+  border-top: 1px solid #e0e0e0;
+  padding: 1.5rem 1rem;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-text {
+  text-align: center;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+/* Home Page */
+.home-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.page-subtitle {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navigation {
+    padding: 1rem;
+  }
+  
+  .nav-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .nav-buttons {
+    gap: 0.25rem;
+  }
+  
+  .btn {
+    width: auto;
+    min-width: 100px;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+} 
