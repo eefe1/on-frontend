@@ -74,19 +74,17 @@ const Header = () => {
             <div className="main-menu-wrapper">
               <div className="menu-header">
                 <Link to="/home" className="menu-logo">
-                  <ImageWithBasePath
-                    src="img/logo.svg"
-                    className="img-fluid"
-                    alt="Logo"
-                  />
+                <ImageWithBasePath
+                  src="img/avukatim_logo.svg"
+                  className="img-fluid"
+                  alt="Avukatim Logo"
+                />
                 </Link>
                 <Link id="menu_close" className="menu-close" to="#"  onClick={() => onhandleCloseMenu()}>
                   <i className="fas fa-times" />
                 </Link>
               </div>
-              <ul className="main-nav">
-                    <NavLinks />
-                  </ul>
+            
             </div>
             <ul className="nav header-navbar-rht">
               <li className="register-btn">

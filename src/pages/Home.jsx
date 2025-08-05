@@ -1,14 +1,21 @@
+import HomeBanner from "../components/homeBanner";
+import SectionSpeciality from "../components/sectionSpeciality";
+import SectionReason from "../components/sectionReason";
+import SectionBook from "../components/sectionBook";
+import SectionFaq from "../components/sectionFaq";
+import SectionArticles from "../components/sectionArticles";
+
 const Home = () => {
-  return (
-    <div className="home-page">
-      <h1 className="page-title">
-        Welcome to Your App
-      </h1>
-      <p className="page-subtitle">
-        This is the home page of your React application.
-      </p>
-    </div>
-  )
+    return (
+        <div className='main-wrapper'>
+          <HomeBanner/>
+          <SectionSpeciality/>
+          <SectionReason/>
+          <SectionBook/>
+          <SectionFaq/>
+          <SectionArticles/>   
+        </div>
+    )
 }
 
 export default Home 

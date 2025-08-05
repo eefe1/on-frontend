@@ -1,10 +1,6 @@
 .doctor-search-section {
     padding-top: 95px;
     position: $__relative;
-    background: url(../img/banner/doctor-banner-01.jpg);
-    background-position: 50% 0;
-    background-size: $__cover;
-    background-repeat: $__no-repeat;
     z-index: 1;
     @include respond-below(custom991) {
         padding: 85px 0 50px;
@@ -284,18 +280,8 @@
 .specialities-section {
     padding: 60px 0 35px;
     position: $__relative;
-    background: url(../img/bg/speciality-bg-01.png);
-    background-position: 50% 0;
-    background-size: $__cover;
-    background-repeat: $__no-repeat;
     @include respond-below(custom991) {
         padding: 40px 0 15px;
-    }
-    &:after {
-        content: "";
-        background-image: $primary-gradient;
-        z-index: -1;
-        @include position($__absolute, 0, 0, 0, 0);
     }
     .specialist-card {
         background: $__white;
