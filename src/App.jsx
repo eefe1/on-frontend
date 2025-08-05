@@ -9,6 +9,7 @@ import './assets/scss/main.scss'
 import './assets/css/custom.css'
 import './assets/css/feather.css'
 import './assets/css/iconsax.css'
+import './assets/icons/fontawesome/css/all.min.css'
 import './App.css'
 
 function App() {

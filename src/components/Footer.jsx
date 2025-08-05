@@ -27,7 +27,7 @@ const Footer = () => {
                         <Link to="#">Kariyer</Link>
                       </li>
                       <li>
-                        <Link to="#">Lokasyon</Link>
+                        <Link to="#">Gizlilik Politikası</Link>
                       </li>
                     </ul>
                   </div>
@@ -71,7 +71,7 @@ const Footer = () => {
                         <Link to="#">Destek</Link>
                       </li>
                       <li>
-                        <Link to="#">SSS</Link>
+                        <Link to="#">Kullanım Şartları</Link>
                       </li>
                     </ul>
                   </div>
@@ -134,33 +134,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer-bg">
-          <ImageWithBasePath
-            src="img/bg/footer-bg-01.png"
-            alt="img"
-            className="footer-bg-01"
-          />
-          <ImageWithBasePath
-            src="img/bg/footer-bg-02.png"
-            alt="img"
-            className="footer-bg-02"
-          />
-          <ImageWithBasePath
-            src="img/bg/footer-bg-03.png"
-            alt="img"
-            className="footer-bg-03"
-          />
-          <ImageWithBasePath
-            src="img/bg/footer-bg-04.png"
-            alt="img"
-            className="footer-bg-04"
-          />
-          <ImageWithBasePath
-            src="img/bg/footer-bg-05.png"
-            alt="img"
-            className="footer-bg-05"
-          />
-        </div>
+      
       </div>
       <div className="footer-bottom">
         <div className="container">
@@ -170,24 +144,14 @@ const Footer = () => {
                 <ul className="nav">
                   <li className="nav-item">
                     <Link className="nav-link" to="/pages/terms">
-                      Kullanım Şartları
+                    © 2025 Avukatım Online. Tüm hakları saklıdır.
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" to="/pages/privacy-policy">
-                      Gizlilik Politikası
-                    </Link>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
-            <div className="col-md-6">
-              <div className="footer-bottom-social">
-                <span className="copyright-text">
-                  © 2024 Avukatım. Tüm hakları saklıdır.
-                </span>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

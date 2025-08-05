@@ -24,7 +24,7 @@ const SectionBook = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-01.svg"
+                          src="/img/icons/work-01.svg"
                           alt="search-doctor-icon"
                         />
                       </span>
@@ -43,7 +43,8 @@ const SectionBook = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-02.svg"
+                          src="/img/icons/work-04.svg"
+
                           alt="doctor-profile-icon"
                         />
                       </span>
@@ -62,7 +63,7 @@ const SectionBook = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-03.svg"
+                          src="/img/icons/work-03.svg"
                           alt="calendar-icon"
                         />
                       </span>
@@ -81,7 +82,8 @@ const SectionBook = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-04.svg"
+                          src="/img/icons/work-02.svg"
+
                           alt="solution-icon"
                         />
                       </span>
