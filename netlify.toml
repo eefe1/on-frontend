@@ -11,3 +11,4 @@ NPM_FLAGS = "--legacy-peer-deps"
 from = "/*"
 to = "/index.html"
 status = 200
+force = true

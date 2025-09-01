@@ -92,6 +92,10 @@ export const router = createBrowserRouter([
         path: 'avukat_profil',
         element: <LawyerProfile />
       },
+      {
+        path: '*',
+        element: <Home />
+      }
     ]
   }
 ]) 
