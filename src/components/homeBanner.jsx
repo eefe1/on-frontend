@@ -25,7 +25,7 @@ const HomeBanner = () => {
                 />
               </div>
               <div className="search-box-one aos" data-aos="fade-up">
-              <form action="/avukat/avukat-list-grid">
+              <form action="/avukat_liste">
                     <div className="search-input search-line">
                     <i className="feather icon-search bficon" />
                     <div className=" mb-0">

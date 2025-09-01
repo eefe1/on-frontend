@@ -63,7 +63,7 @@ const Header = () => {
                   <span />
                 </span>
               </Link>
-              <Link to="/home" className="navbar-brand logo">
+              <Link to="/" className="navbar-brand logo">
                 <ImageWithBasePath
                   src="img/avukatim_logo.svg"
                   className="img-fluid"
@@ -73,7 +73,7 @@ const Header = () => {
             </div>
             <div className="main-menu-wrapper">
               <div className="menu-header">
-                <Link to="/home" className="menu-logo">
+                <Link to="/" className="menu-logo">
                 <ImageWithBasePath
                   src="img/avukatim_logo.svg"
                   className="img-fluid"
@@ -88,13 +88,13 @@ const Header = () => {
             </div>
             <ul className="nav header-navbar-rht">
               <li className="register-btn">
-                <Link to="/register" className="btn btn-dark reg-btn">
+                <Link to="/kayit_ol" className="btn btn-dark reg-btn">
                   <User size={16} className="me-2" />
                   Kayıt Ol
                 </Link>
               </li>
               <li className="register-btn">
-                <Link to="/login" className="btn btn-primary log-btn">
+                <Link to="/giris" className="btn btn-primary log-btn">
                   <Lock size={16} className="me-2" />
                   Giris Yap
                 </Link>
