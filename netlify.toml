@@ -1,9 +1,10 @@
 [build]
+base = "."
 command = "npm run build"
 publish = "dist"
 
 [build.environment]
-NODE_VERSION = "22.12.0"
+NODE_VERSION = "20.12.1"
 NPM_FLAGS = "--legacy-peer-deps"
 
 [[redirects]]
