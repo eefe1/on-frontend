@@ -13,7 +13,18 @@ import './assets/css/iconsax.css'
 import './assets/icons/fontawesome/css/all.min.css'
 import './App.css'
 
+// Import jQuery, moment, and daterangepicker for DateRangePicker component
+import $ from 'jquery'
+import moment from 'moment'
+import 'bootstrap-daterangepicker'
+import 'bootstrap-daterangepicker/daterangepicker.css'
+
+// Make jQuery and moment available globally
+window.$ = window.jQuery = $
+window.moment = moment
+
 function App() {
+  console.log('App component rendered')
   return (
     <Provider store={store}>
       <RouterProvider router={router} />
