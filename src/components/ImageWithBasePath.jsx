@@ -3,7 +3,7 @@ import React from 'react'
 const ImageWithBasePath = ({ src, className, alt, ...props }) => {
   // You can modify this base path as needed
   const basePath = '/src/'
-  const imageSrc = src.startsWith('http') ? src : `${basePath}${src}`
+  const imageSrc = src.startsWith('https') ? src : `${basePath}${src}`
   
   const handleImageError = (e) => {
     console.warn(`Image failed to load: ${imageSrc}`)

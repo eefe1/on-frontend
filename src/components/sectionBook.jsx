@@ -63,7 +63,7 @@ const SectionBook = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-03.svg"
+                          src="img/icons/work-03.svg"
                           alt="calendar-icon"
                         />
                       </span>
