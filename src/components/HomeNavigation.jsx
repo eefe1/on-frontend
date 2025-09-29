@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 import { setDataTheme } from "../store/themeSettingSlice";
 import NavLinks from "./NavLinks";
 import { User, Lock } from "feather-icons-react";
+import avukatimLogo from "../assets/img/avukatim_logo.svg";
 
 const Header = () => {
   const [searchField, setSearchField] = useState(false);
@@ -64,8 +65,8 @@ const Header = () => {
                 </span>
               </Link>
               <Link to="/" className="navbar-brand logo">
-                <ImageWithBasePath
-                  src="img/avukatim_logo.svg"
+                <img
+                  src={avukatimLogo}
                   className="img-fluid"
                   alt="Avukatim Logo"
                 />
@@ -74,8 +75,8 @@ const Header = () => {
             <div className="main-menu-wrapper">
               <div className="menu-header">
                 <Link to="/" className="menu-logo">
-                <ImageWithBasePath
-                  src="img/avukatim_logo.svg"
+                <img
+                  src={avukatimLogo}
                   className="img-fluid"
                   alt="Avukatim Logo"
                 />
