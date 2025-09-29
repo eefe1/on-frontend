@@ -25,7 +25,7 @@ const SectionBook = () => {
                       <span>
                         <ImageWithBasePath
                           src="/img/icons/work-01.svg"
-                          alt="search-doctor-icon"
+                          alt="search-lawyer-icon"
                         />
                       </span>
                     </div>
