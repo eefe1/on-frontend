@@ -15,7 +15,7 @@ const SectionArtical = () => {
                             data-aos="fade-up"
                         >
                             <span className="badge badge-primary">Gecmis Yazilar</span>
-                            <h2>Guncel Blog Yazilarimizi Okuyun</h2>
+                            <h2>Güncel Blog Yazilarimizi Okuyun</h2>
                         </div>
                         <div className="row g-4">
                             <div className="col-lg-6">
@@ -23,13 +23,13 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="/img/blog/article-01.jpg"
+                                                src="assets/img/blog/article-01.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />
                                         </Link>
                                         <div className="date-icon">
-                                            <span>15</span>Mayis
+                                            <span>15</span>Mayıs
                                         </div>
                                     </div>
                                     <div className="article-info">
@@ -50,7 +50,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="/img/blog/article-02.jpg"
+                                                src="assets/img/blog/article-02.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />
@@ -77,7 +77,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="/img/blog/article-03.jpg"
+                                                src="assets/img/blog/article-03.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />
@@ -102,7 +102,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="/img/blog/article-04.jpg"
+                                                src="assets/img/blog/article-04.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />

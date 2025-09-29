@@ -2,7 +2,7 @@ import React from 'react'
 
 const ImageWithBasePath = ({ src, className, alt, ...props }) => {
   // You can modify this base path as needed
-  const basePath = '/src/assets/'
+  const basePath = '/src/'
   const imageSrc = src.startsWith('http') ? src : `${basePath}${src}`
   
   const handleImageError = (e) => {
