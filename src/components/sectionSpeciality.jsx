@@ -66,7 +66,7 @@ const SectionSpeciality = () => {
       <section className="specialities-section">
         <div className="shapes">
           <ImageWithBasePath
-            src="assets/img/shapes/shape-3.png"
+            src="/src/assets/img/shapes/shape-3.png"
             alt="shape-image"
             className="img-fluid shape-3"
           />
@@ -85,7 +85,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/1.svg"
+                    src="/src/assets/img/category/1.png"
                     alt="kidney-image"
                     className="img-fluid"
                   />
@@ -107,7 +107,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/2.svg"
+                    src="/src/assets/img/category/2.png"
                     alt="bone-image"
                     className="img-fluid"
                   />
@@ -129,7 +129,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/3.svg"
+                    src="/src/assets/img/category/3.png"
                     alt="heart-image"
                     className="img-fluid"
                   />
@@ -151,7 +151,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/4.svg"
+                    src="/src/assets/img/category/4.png"
                     alt="brain-image"
                     className="img-fluid"
                   />
@@ -173,7 +173,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/5.svg"
+                    src="/src/assets/img/category/5.png"
                     alt="brain-image"
                     className="img-fluid"
                   />
@@ -195,7 +195,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/6.svg"
+                    src="/src/assets/img/category/6.png"
                     alt="bone-image"
                     className="img-fluid"
                   />
@@ -217,7 +217,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/7.svg"
+                    src="/src/assets/img/category/7.png"
                     alt="heart-image"
                     className="img-fluid"
                   />
@@ -239,7 +239,7 @@ const SectionSpeciality = () => {
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
                   <ImageWithBasePath
-                    src="assets/img/category/8.svg"
+                    src="/src/assets/img/category/8.png"
                     alt="kidney-image"
                     className="img-fluid"
                   />
