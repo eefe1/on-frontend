@@ -23,7 +23,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="assets/img/blog/article-01.jpg"
+                                                src="/src/assets/img/blog/article-01.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />
@@ -50,7 +50,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="assets/img/blog/article-02.jpg"
+                                                src="/src/assets/img/blog/article-02.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />
@@ -77,7 +77,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="assets/img/blog/article-03.jpg"
+                                                src="/src/assets/img/blog/article-03.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />
@@ -102,7 +102,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src="assets/img/blog/article-04.jpg"
+                                                src="/src/assets/img/blog/article-04.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />

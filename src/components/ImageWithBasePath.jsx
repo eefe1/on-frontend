@@ -1,9 +1,24 @@
 import React from 'react'
 
 const ImageWithBasePath = ({ src, className, alt, ...props }) => {
-  // You can modify this base path as needed
-  const basePath = '/src/'
-  const imageSrc = src.startsWith('https') ? src : `${basePath}${src}`
+  // Handle different types of image sources
+  const getImageSrc = (imageSrc) => {
+    // If it's already a full URL (http/https), use it as is
+    if (imageSrc.startsWith('http')) {
+      return imageSrc
+    }
+    
+    // If it starts with '/', it's already an absolute path
+    if (imageSrc.startsWith('/')) {
+      return imageSrc
+    }
+    
+    // For relative paths, use the public directory
+    // This works for both development and production
+    return `/${imageSrc}`
+  }
+  
+  const imageSrc = getImageSrc(src)
   
   const handleImageError = (e) => {
     console.warn(`Image failed to load: ${imageSrc}`)
