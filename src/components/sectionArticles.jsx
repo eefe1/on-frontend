@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import ImageWithBasePath from './ImageWithBasePath';
-import { article_01 } from './imagepath';
 
 
 const SectionArtical = () => {
@@ -24,7 +23,7 @@ const SectionArtical = () => {
                                     <div className="article-img">
                                         <Link to="/blog/blog-details">
                                             <ImageWithBasePath
-                                                src={article_01}
+                                                src="assets/images/blog/article-01.jpg"
                                                 className="img-fluid"
                                                 alt="img"
                                             />

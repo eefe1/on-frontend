@@ -69,7 +69,6 @@ export { default as blog_17 } from "../assets/images/blog/blog-17.jpg";
 export { default as blog_21 } from "../assets/images/blog/blog-21.jpg";
 export { default as blog_22 } from "../assets/images/blog/blog-22.jpg";
 export { default as blog_23 } from "../assets/images/blog/blog-23.jpg";
-export { default as article_01 } from "../assets/img/blog/article-01.jpg";
 
 export { default as re_image_1 } from "../assets/images/clients/re-image-1.jpg";
 export { default as re_image_2 } from "../assets/images/clients/re-image-2.jpg";
