@@ -84,11 +84,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/1.png"
-                    alt="kidney-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-house text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
@@ -106,11 +102,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/2.png"
-                    alt="bone-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-handshake text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
@@ -128,11 +120,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/3.png"
-                    alt="heart-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-gavel text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
@@ -150,11 +138,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/4.png"
-                    alt="brain-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-building text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
@@ -172,11 +156,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/5.png"
-                    alt="brain-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-briefcase text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
@@ -194,11 +174,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/6.png"
-                    alt="bone-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-shopping-cart text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
@@ -216,11 +192,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/7.png"
-                    alt="heart-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-landmark text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
@@ -238,11 +210,7 @@ const SectionSpeciality = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
                 <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="/src/assets/img/category/8.png"
-                    alt="kidney-image"
-                    className="img-fluid"
-                  />
+                  <i className="fa-solid fa-shield text-white" style={{fontSize: '2rem'}}></i>
                 </div>
                 <div className="specialist-info">
                   <Link to="#">
