@@ -1,0 +1,16 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="avukatimGradient" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E82FD"/>
+      <stop offset="0.7" stop-color="#06AED4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rectangle for better visibility -->
+  <rect width="1200" height="240" fill="transparent"/>
+  
+  <!-- Avukatım text -->
+  <text x="600" y="160" font-family="Inter, Arial, sans-serif" font-size="104" font-weight="600" text-anchor="middle" fill="url(#avukatimGradient)">
+    avukatım
+  </text>
+</svg> 
