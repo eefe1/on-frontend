@@ -1,4 +1,4 @@
-import { ImageWithFallBack } from "../ImageWithFallBack";
+import  ImageWithFallBack  from "../ImageWithFallBack";
 
 // Mock profile data
 const lawyerProfile = {

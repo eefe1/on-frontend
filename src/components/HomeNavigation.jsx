@@ -35,9 +35,11 @@ const Header = () => {
       currentPath.startsWith('/dashboard');
   };
 
-  const directionPath = () => {
-    navigate('/patient/search-doctor1')
-  }
+  const showNoButtons = () => {
+    const currentPath = location.pathname;
+    return currentPath === '/avukat_randevu_ayarla';
+  };
+
   const [headerClass, setHeaderClass] = useState(
     "header header-custom header-fixed header-one home-head-one"
   );
@@ -121,7 +123,7 @@ const Header = () => {
 
             </div>
             <ul className="nav header-navbar-rht">
-              {showAuthButtons() && !showDashboardButtons() && (
+              {showAuthButtons() && !showDashboardButtons() && !showNoButtons() && (
                 <>
                   <li className="register-btn">
                     <Link to="/kayit_ol" className="btn btn-dark reg-btn">
@@ -138,7 +140,7 @@ const Header = () => {
                 </>
               )}
 
-              {showDashboardButtons() && (
+              {showDashboardButtons() && !showNoButtons() && (
                 <>
                   <NavbarButtons />
                 </>

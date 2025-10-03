@@ -1,4 +1,5 @@
-import { ImageWithFallBack } from "../ImageWithFallBack";
+import  ImageWithFallBack from "../ImageWithFallBack";
+import { Link } from "react-router-dom";
 
 export function LawyerCard({ lawyer, onViewProfile }) {
   return (
@@ -48,10 +49,10 @@ export function LawyerCard({ lawyer, onViewProfile }) {
           
           <div className="d-flex align-items-center justify-content-between">
             <div className="d-flex gap-2">
-              <button className="btn btn-outline-primary btn-sm">
+              <Link to="/avukat_randevu_ayarla" className="btn btn-outline-primary btn-sm">
                 <i className="fas fa-phone me-1"></i>
-                Ara
-              </button>
+                Görüşme Ayarla
+              </Link>
               <button className="btn btn-outline-primary btn-sm">
                 <i className="fas fa-envelope me-1"></i>
                 Mesaj

@@ -78,7 +78,7 @@ const BookingWizard = () => {
   };
   return (
     <div classname="main-wrapper">
-      <header className="header header-custom header-fixed inner-header relative">
+
         <div className="container">
           <nav className="navbar navbar-expand-lg header-nav">
             <div className="navbar-header">
@@ -95,7 +95,6 @@ const BookingWizard = () => {
             </div>
           </nav>
         </div>
-      </header>
       <div className="doctor-content">
         <div className="container">
           <div className="row">
