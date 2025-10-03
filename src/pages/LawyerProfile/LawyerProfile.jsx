@@ -1,4 +1,5 @@
-import  ImageWithFallBack  from "../ImageWithFallBack";
+import ImageWithBasePath from "../../components/ImageWithBasePath";
+import { Link } from "react-router-dom";
 
 // Mock profile data
 const lawyerProfile = {
@@ -69,7 +70,7 @@ export default function LawyerProfile() {
               <div className="card-body p-4">
                 <div className="row align-items-center">
                   <div className="col-12 col-md-auto text-center mb-3 mb-md-0">
-                    <ImageWithFallBack
+                    <ImageWithBasePath
                       src={lawyerProfile.photo}
                       alt={lawyerProfile.name}
                       className="rounded-circle border border-primary-subtle"
@@ -123,10 +124,10 @@ export default function LawyerProfile() {
                           <i className="fas fa-phone me-2"></i>
                           Ara
                         </button>
-                        <button className="btn btn-outline-primary btn-sm" style={{borderRadius: '0.50rem'}}>
-                          <i className="fas fa-calendar me-2"></i>
+                        <Link to="/avukat_randevu_ayarla" className="btn btn-outline-primary btn-sm d-flex align-items-center" style={{borderRadius: '0.50rem'}}>
+                          <i className="isax isax-calendar-1 me-2" style={{fontSize: '1rem'}}></i>
                           Randevu Al
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

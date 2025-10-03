@@ -1,4 +1,4 @@
-import  ImageWithFallBack from "../ImageWithFallBack";
+import ImageWithBasePath from "../../components/ImageWithBasePath";
 import { Link } from "react-router-dom";
 
 export function LawyerCard({ lawyer, onViewProfile }) {
@@ -7,7 +7,7 @@ export function LawyerCard({ lawyer, onViewProfile }) {
       <div className="card-body">
         <div className="row align-items-center">
           <div className="col-auto">
-            <ImageWithFallBack
+            <ImageWithBasePath
               src={lawyer.photo}
               alt={lawyer.name}
               className="rounded-circle border border-primary-subtle"
@@ -58,12 +58,12 @@ export function LawyerCard({ lawyer, onViewProfile }) {
                 Mesaj
               </button>
             </div>
-            <button 
-              onClick={() => onViewProfile && onViewProfile(lawyer.id)}
+            <Link
+              to="/avukat_profil"
               className="btn btn-primary btn-sm"
             >
               Profili Görüntüle
-            </button>
+            </Link>
           </div>
         </div>
       </div>
