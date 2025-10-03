@@ -1,4 +1,4 @@
-import { ImageWithFallback } from "../ImageWithFallBack";
+import { ImageWithFallBack } from "../ImageWithFallBack";
 
 // Mock profile data
 const lawyerProfile = {
@@ -69,7 +69,7 @@ export default function LawyerProfile() {
               <div className="card-body p-4">
                 <div className="row align-items-center">
                   <div className="col-12 col-md-auto text-center mb-3 mb-md-0">
-                    <ImageWithFallback
+                    <ImageWithFallBack
                       src={lawyerProfile.photo}
                       alt={lawyerProfile.name}
                       className="rounded-circle border border-primary-subtle"

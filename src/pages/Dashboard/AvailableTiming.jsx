@@ -7,7 +7,7 @@ const AvailableTiming = (props) => {
   return (
     <>
       {/* Page Content */}
-      <div className="content ">
+      <div className="content" style={{marginTop: '5rem', marginBottom: '2rem'}}>
         <div className="container">
           <div className="row">
             <div className="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">

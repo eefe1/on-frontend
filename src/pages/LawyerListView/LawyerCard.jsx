@@ -1,4 +1,4 @@
-import { ImageWithFallback } from "../ImageWithFallBack";
+import { ImageWithFallBack } from "../ImageWithFallBack";
 
 export function LawyerCard({ lawyer, onViewProfile }) {
   return (
@@ -6,7 +6,7 @@ export function LawyerCard({ lawyer, onViewProfile }) {
       <div className="card-body">
         <div className="row align-items-center">
           <div className="col-auto">
-            <ImageWithFallback
+            <ImageWithFallBack
               src={lawyer.photo}
               alt={lawyer.name}
               className="rounded-circle border border-primary-subtle"
