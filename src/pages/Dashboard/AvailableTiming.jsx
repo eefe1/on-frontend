@@ -6,29 +6,8 @@ import Sidebar from "../../components/Dashboard/sidebar";
 const AvailableTiming = (props) => {
   return (
     <>
-      {/* Breadcrumb */}
-      <div className="breadcrumb-bar-two">
-        <div className="container">
-          <div className="row align-items-center inner-banner">
-            <div className="col-md-12 col-12 text-center">
-              <h2 className="breadcrumb-title">Takvim</h2>
-              <nav aria-label="breadcrumb" className="page-breadcrumb">
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">
-                    <Link to="/home-2">Ana Sayfa</Link>
-                  </li>
-                  <li className="breadcrumb-item" aria-current="page">
-                    Görüşme Takvimi
-                  </li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* /Breadcrumb */}
       {/* Page Content */}
-      <div className="content">
+      <div className="content ">
         <div className="container">
           <div className="row">
             <div className="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
