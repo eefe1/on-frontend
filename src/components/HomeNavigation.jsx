@@ -6,7 +6,9 @@ import { useSelector } from "react-redux";
 import { setDataTheme } from "../store/themeSettingSlice";
 import NavLinks from "./NavLinks";
 import { User, Lock } from "feather-icons-react";
+import { Scale } from "lucide-react";
 import avukatimLogo from "../assets/img/avukatim_logo.svg";
+
 
 const Header = () => {
   const [searchField, setSearchField] = useState(false);
@@ -26,7 +28,7 @@ const Header = () => {
   const [headerClass, setHeaderClass] = useState(
     "header header-custom header-fixed header-one home-head-one"
   );
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -65,27 +67,45 @@ const Header = () => {
                 </span>
               </Link>
               <Link to="/" className="navbar-brand logo">
-                <img
-                  src={avukatimLogo}
-                  className="img-fluid"
-                  alt="Avukatim Logo"
-                />
+                <div className="d-flex align-items-center" style={{ gap: '0.5rem' }}>
+                  <Scale
+                    size={32}
+                    style={{ color: '#0E82FD' }}
+                  />
+                  <h3 style={{
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: '300',
+                    fontSize: '1.5rem',
+                    color: '#0E82FD',
+                    margin: '0'
+                  }}>avukatim</h3>                
+                  </div>
               </Link>
+
+
             </div>
             <div className="main-menu-wrapper">
               <div className="menu-header">
                 <Link to="/" className="menu-logo">
-                <img
-                  src={avukatimLogo}
-                  className="img-fluid"
-                  alt="Avukatim Logo"
-                />
+                  <div className="d-flex align-items-center" style={{ gap: '0.5rem' }}>
+                  <Scale
+                    size={32}
+                    style={{ color: '#0E82FD' }}
+                  />
+                  <h3 style={{
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: '300',
+                    fontSize: '1.5rem',
+                    color: '#0E82FD',
+                    margin: '0'
+                  }}>avukatim</h3>                
+                  </div>
                 </Link>
-                <Link id="menu_close" className="menu-close" to="#"  onClick={() => onhandleCloseMenu()}>
+                <Link id="menu_close" className="menu-close" to="#" onClick={() => onhandleCloseMenu()}>
                   <i className="fas fa-times" />
                 </Link>
               </div>
-            
+
             </div>
             <ul className="nav header-navbar-rht">
               <li className="register-btn">
